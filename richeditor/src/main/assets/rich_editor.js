@@ -172,6 +172,10 @@ RE.setJustifyRight = function() {
     document.execCommand('justifyRight', false, null);
 }
 
+RE.setJustifyFull = function() {
+    document.execCommand('justifyFull', false, null);
+}
+
 RE.setBlockquote = function() {
     document.execCommand('formatBlock', false, '<blockquote>');
 }
